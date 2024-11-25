@@ -1,0 +1,2153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:root xmlns:wd="urn:com.workday/bsvc" xmlns:ns0="urn:namespace0" xmlns:ns1="urn:namespace1">
+    <wd:data>
+        <wd:col1>Row001</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row002</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row003</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row004</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row005</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row006</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row007</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row008</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row009</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row010</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row011</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row012</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row013</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row014</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row015</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row016</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row017</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row018</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row019</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row020</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row021</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row022</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row023</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row024</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row025</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row026</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row027</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row028</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row029</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row030</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row031</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row032</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row033</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row034</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row035</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row036</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row037</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row038</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row039</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row040</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row041</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row042</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row043</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row044</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row045</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row046</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row047</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row048</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row049</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row050</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row051</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row052</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row053</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row054</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row055</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row056</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row057</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row058</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row059</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row060</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row061</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row062</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row063</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row064</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row065</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row066</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row067</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row068</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row069</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row070</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row071</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row072</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row073</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row074</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row075</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row076</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row077</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row078</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row079</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row080</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row081</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row082</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row083</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row084</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row085</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row086</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row087</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row088</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row089</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>|" to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row090</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>"| to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row091</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>| " to start</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row092</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>" | to start</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row093</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>end with |"</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row094</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>end with "|</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row095</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>end with | "</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row096</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>Separator | in the middle</wd:col10>
+        <wd:col11>Encapsulator " in the middle</wd:col11>
+        <wd:col12>end with " |</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row097</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field</wd:col10>
+        <wd:col11>" starts the field</wd:col11>
+        <wd:col12>Two |" special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row098</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>the field ends with |</wd:col10>
+        <wd:col11>the field ends with "</wd:col11>
+        <wd:col12>Two "| special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row099</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+two lines</wd:col9>
+        <wd:col10>| starts the field and then it ends with |</wd:col10>
+        <wd:col11>" starts the field and then it ends with "</wd:col11>
+        <wd:col12>Two | " special characters</wd:col12>
+        <wd:col13>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:col13>
+        <wd:col14>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:col14>
+    </wd:data>
+    <wd:data>
+        <wd:col1>Row100</wd:col1>
+        <wd:col2>Ok by CSV, but " needs escaped for XML</wd:col2>
+        <wd:col3>Ok by CSV, but ' needs escaped for XML</wd:col3>
+        <wd:col4>Ok by CSV, but &lt; needs escaped for XML</wd:col4>
+        <wd:col5>Ok by CSV, but > needs escaped for XML</wd:col5>
+        <wd:col6>Ok by CSV, but &amp; needs escaped for XML</wd:col6>
+        <wd:col7>All of these " ' &lt; > &amp; need to be escaped</wd:col7>
+        <wd:col8>ComplexKey001</wd:col8>
+        <wd:col9>Data on
+three lines
+is a good test too</wd:col9>
+        <wd:col10>| and a | and a |</wd:col10>
+        <wd:col11>" and a " and a "</wd:col11>
+        <wd:col12>Two " | special characters</wd:col12>
+        <wd:col13>or if the values " were unbalanced 
+|
+in really strange ways</wd:col13>
+        <wd:col14>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:col14>
+    </wd:data>
+</wd:root>

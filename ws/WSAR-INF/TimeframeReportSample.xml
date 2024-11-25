@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:Report_Data xmlns:wd="urn:com.workday.report/bsvc">
+	<wd:Report_Entry>
+		<wd:Past_Period_Group>
+			<wd:Timeframe_Start_Date>2023-05-09-07:00</wd:Timeframe_Start_Date>
+		</wd:Past_Period_Group>
+		<wd:Current_Period_Group>
+			<wd:Timeframe_End_Date>2023-06-20-07:00</wd:Timeframe_End_Date>
+		</wd:Current_Period_Group>
+	</wd:Report_Entry>
+</wd:Report_Data>

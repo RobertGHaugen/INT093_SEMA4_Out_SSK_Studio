@@ -1,0 +1,2153 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:root xmlns:wd="urn:com.workday/bsvc" xmlns:ns0="urn:namespace0" xmlns:ns1="urn:namespace1">
+    <wd:data>
+        <wd:SimpleValue>Row201</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row202</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row203</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row204</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row205</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row206</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row207</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row208</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row209</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row210</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row211</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row212</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row213</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row214</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row215</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row216</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row217</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row218</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row219</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row220</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row221</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row222</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row223</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row224</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row225</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row226</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row227</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row228</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row229</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row230</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row231</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row232</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row233</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row234</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row235</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row236</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row237</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row238</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row239</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row240</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row241</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row242</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row243</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row244</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row245</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row246</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row247</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row248</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row249</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row250</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row251</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row252</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row253</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row254</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row255</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row256</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row257</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row258</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row259</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row260</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row261</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row262</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row263</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row264</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row265</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row266</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row267</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row268</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row269</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row270</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row271</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row272</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row273</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row274</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row275</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row276</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row277</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row278</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row279</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row280</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row281</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row282</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row283</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row284</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row285</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row286</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row287</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row288</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row289</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two |" special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row290</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two "| special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row291</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two | " special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row292</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>Two " | special characters</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row293</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>|" to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row294</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>"| to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row295</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>| " to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row296</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>Separator | in the middle</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>Encapsulator " in the middle</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>" | to start</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row297</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with |"</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row298</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>the field ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>the field ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with "|</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row299</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+two lines</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| starts the field and then it ends with |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" starts the field and then it ends with "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with | "</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>What if the data were "we use a | for separation
+and double quotes to encapsulate"?</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>What if the data were "we use a | for separation
+and double quotes to encapsulate"? Is that &lt; another test?</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+    <wd:data>
+        <wd:SimpleValue>Row300</wd:SimpleValue>
+        <wd:EscapeQuote>Ok by CSV, but " needs escaped for XML</wd:EscapeQuote>
+        <wd:EscapeApostrophe>Ok by CSV, but ' needs escaped for XML</wd:EscapeApostrophe>
+        <wd:EscapeLeftAngle>Ok by CSV, but &lt; needs escaped for XML</wd:EscapeLeftAngle>
+        <wd:EscapeRightAngle>Ok by CSV, but > needs escaped for XML</wd:EscapeRightAngle>
+        <wd:EscapeAmpersand>Ok by CSV, but &amp; needs escaped for XML</wd:EscapeAmpersand>
+        <wd:EscapeAll>All of these " ' &lt; > &amp; need to be escaped</wd:EscapeAll>
+        <wd:JournalKey>ComplexKey003</wd:JournalKey>
+        <wd:LineBreakField>Data on
+three lines
+is a good test too</wd:LineBreakField>
+        <wd:EmbeddedSeparatorField>| and a | and a |</wd:EmbeddedSeparatorField>
+        <wd:EmbeddedEncapsulatorField>" and a " and a "</wd:EmbeddedEncapsulatorField>
+        <wd:SeparatorWithEncapsulatorField>end with " |</wd:SeparatorWithEncapsulatorField>
+        <wd:SeparatorEncapsulatorCRLF>or if the values " were unbalanced 
+|
+in really strange ways</wd:SeparatorEncapsulatorCRLF>
+        <wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>First line with " marks
+|
+Another line with &lt; and >
+|
+Yet another line in the same field</wd:SeparatorEncapsulatorCRLFWithXMLLeftAngle>
+    </wd:data>
+</wd:root>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ssk:FlexLogs xmlns:ssk="urn:com.workday.custom.ssk.common">
+	<ssk:FlexLog 
+		ssk:logName="flex-log" 
+		ssk:filename="filename1"
+		ssk:maxEntriesPerFile="32" 
+		ssk:retention="42" 
+		ssk:separator="~" 
+		ssk:aggregationDocumentTag="INT_Log_Aggregator" 
+		ssk:aggregationWorksheet="TheLog">
+		<ssk:Field>
+			<ssk:Parameter>inLogMessage1</ssk:Parameter>
+			<ssk:Header>Summary1</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inLogMessageDetail1</ssk:Parameter>
+			<ssk:Header>Details1</ssk:Header>
+		</ssk:Field>
+	</ssk:FlexLog>
+	<ssk:FlexLog 
+		ssk:logName="flex-log" 
+		ssk:filename="filename2"
+		ssk:maxEntriesPerFile="262" 
+		ssk:retention="421" 
+		ssk:separator="|" 
+		ssk:aggregationDocumentTag="INT_Logs2Collect" 
+		ssk:aggregationWorksheet="TheLogTab">
+		<ssk:Field>
+			<ssk:Parameter>inUniqueA</ssk:Parameter>
+			<ssk:Header>Summary</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inUniqueB</ssk:Parameter>
+			<ssk:Header>B Details</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inUniqueC</ssk:Parameter>
+			<ssk:Header>C Details</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inUniqueD</ssk:Parameter>
+			<ssk:Header>D Details</ssk:Header>
+		</ssk:Field>
+	</ssk:FlexLog>
+</ssk:FlexLogs>

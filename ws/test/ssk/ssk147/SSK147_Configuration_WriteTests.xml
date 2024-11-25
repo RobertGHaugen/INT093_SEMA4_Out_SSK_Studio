@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ssk:FlexLogs xmlns:ssk="urn:com.workday.custom.ssk.common">
+	<ssk:FlexLog 
+		ssk:logName="log1" 
+		ssk:filename="filename1">
+		<ssk:Field>
+			<ssk:Parameter>inLogMessage</ssk:Parameter>
+			<ssk:Header>Summary</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inLogDetail</ssk:Parameter>
+			<ssk:Header>Details</ssk:Header>
+		</ssk:Field>
+	</ssk:FlexLog>
+	<ssk:FlexLog 
+		ssk:logName="log2" 
+		ssk:filename="filename2">
+		<ssk:Field>
+			<ssk:Parameter>inUniqueA</ssk:Parameter>
+			<ssk:Header>Summary</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inUniqueB</ssk:Parameter>
+			<ssk:Header>B Details</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inUniqueC</ssk:Parameter>
+			<ssk:Header>C Details</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inUniqueD</ssk:Parameter>
+			<ssk:Header>D Details</ssk:Header>
+		</ssk:Field>
+	</ssk:FlexLog>
+</ssk:FlexLogs>

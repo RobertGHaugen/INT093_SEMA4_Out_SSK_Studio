@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wd:root xmlns:wd="urn:com.workday/bsvc" xmlns:ns0="urn:namespace0" xmlns:ns1="urn:namespace1">
+    <wd:data>
+    	<wd:MF1>Good 1.1</wd:MF1>
+    	<wd:MF2>Good 1.2</wd:MF2>
+    	<wd:___MF3>Good 1.3</wd:___MF3>
+    	<wd:_MF4>Good 1.4</wd:_MF4>
+    	<wd:_MF5>Good 1.5</wd:_MF5>
+    	<wd:MF6>Good 1.6</wd:MF6>
+    	<wd:MF7>Good 1.7</wd:MF7>
+    	<wd:MF8>Good 1.8</wd:MF8>
+	</wd:data>
+</wd:root>

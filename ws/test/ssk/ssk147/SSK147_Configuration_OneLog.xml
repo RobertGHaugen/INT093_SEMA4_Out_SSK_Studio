@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ssk:FlexLogs xmlns:ssk="urn:com.workday.custom.ssk.common">
+	<ssk:FlexLog 
+		ssk:logName="flex-log" 
+		ssk:filename="filename1"
+		ssk:maxEntriesPerFile="32" 
+		ssk:retention="42" 
+		ssk:separator="~" 
+		ssk:aggregationDocumentTag="INT_Log_Aggregator" 
+		ssk:aggregationWorksheet="TheLog"
+		ssk:deliverable="true">
+		<ssk:Field>
+			<ssk:Parameter>inLogMessage1</ssk:Parameter>
+			<ssk:Header>Summary1</ssk:Header>
+		</ssk:Field>
+		<ssk:Field>
+			<ssk:Parameter>inLogMessageDetail1</ssk:Parameter>
+			<ssk:Header>Details1</ssk:Header>
+		</ssk:Field>
+	</ssk:FlexLog>
+</ssk:FlexLogs>
